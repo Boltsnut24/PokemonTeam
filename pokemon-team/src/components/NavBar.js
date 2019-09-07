@@ -4,9 +4,9 @@ export default function NavBar(props){
 
   return (
     <div>
-     <button onClick={props.setActivePage(props.prevPage)}>Prev</button>
+     <button onClick={props.turnPageBackward}>Prev</button>
      <h2> Navbar</h2>
-     <button onClick={props.setActivePage(props.nextPage)}>Next</button>
+     <button onClick={props.turnPageForward}>Next</button>
     </div>
   )
 }
